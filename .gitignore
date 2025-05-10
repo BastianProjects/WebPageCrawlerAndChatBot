@@ -1,0 +1,9 @@
+# Ignore log files
+*.log
+*.pkl
+# Ignore temp folders
+temp/
+venv/
+env/
+.vs/
+chroma_DB/
