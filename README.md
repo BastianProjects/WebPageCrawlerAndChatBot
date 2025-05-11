@@ -1,3 +1,15 @@
+STEPS: 
+
+python -m venv venv
+
+
+Set-ExecutionPolicy Unrestricted -Scope Process
+
+.\venv\Scripts\activate
+
+pip install -r .\requirements.txt
+
+streamlit run .\PDFEnhancedChatBot.py
 Project Description: AI Web Page Crawler Chatbot
 The AI Web Page Crawler Chatbot is a Python-based application built with Streamlit that allows users to extract, index, and query information from web pages. It leverages advanced natural language processing (NLP) and vector search technologies to provide concise and accurate answers to user queries based on the content of indexed web pages.
 Key Features:
